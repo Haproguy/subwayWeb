@@ -1,0 +1,14 @@
+@mixin container {
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    gap: 20px;
+}
+
+.boxContainer {
+    @include container;
+}
+
+.boxContainer2 {
+    @include container;
+}

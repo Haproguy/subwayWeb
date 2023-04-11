@@ -1,3 +1,5 @@
+
+
 export default function SearchView(props) {
     const { pastSearch } = props;
     const search = pastSearch.value;
@@ -15,6 +17,8 @@ export default function SearchView(props) {
                         </>
                     );
                 })}
+
+                
             </div>
         </div>
     );
